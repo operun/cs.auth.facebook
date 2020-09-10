@@ -1,6 +1,6 @@
 from StringIO import StringIO
 
-from Products.PlonePAS.Extensions.Install import activatePluginInterfaces
+from Products.PlonePAS.setuphandlers import activatePluginInterfaces
 
 from cs.auth.facebook.plugin import CSFacebookUsers
 
